@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather app</title>
+</head>
+<body>
+    <div class="card">
+        <div class="search">
+            <input type="text" placeholder="City name" spellcheck="false" onkeyup="get_weather_data(this.value)">
+            <!-- <button>
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </button> -->
+        </div>
+
+        <div class="weather">
+            <span class="weather-icon"><i class="fa-solid fa-sun"></i></span>
+            <h1 class="temp">0°C</h1>
+            <h2 class="city">ciro</h2>
+            <div class="details">
+                <div class="col">
+                    <i class="fa-solid fa-water"></i>
+                    <div>
+                        <p class="humidity">0%</p>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <i class="fa-solid fa-wind"></i>
+                    <div>
+                        <p class="wind">0km/h</p>
+                        <p>Wind speed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--     <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <i class="fa-solid fa-cloud"></i>
+    <i class="fa-solid fa-cloud-sun"></i>
+    <i class="fa-solid fa-cloud-sun-rain"></i>
+    <i class="fa-solid fa-cloud-showers-heavy"></i>
+    <i class="fa-solid fa-snowflake"></i> -->
+    <script src="app.js"></script>
+</body>
+</html>
