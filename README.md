@@ -1,5 +1,3 @@
-Sure! Here's a README file for the code you provided:
-
 # Weather App
 
 This is a simple weather app that allows users to search for the weather in a specific city. The app displays the current temperature, humidity, and wind speed for the selected city.
