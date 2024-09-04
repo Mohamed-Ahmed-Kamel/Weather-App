@@ -11,7 +11,13 @@
 body {
     background-color: #1c1c1c;
 }
-
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid;
+    height: 100vh;
+}
 /* main crad *******************************/
 .card {
     width: 90%;
